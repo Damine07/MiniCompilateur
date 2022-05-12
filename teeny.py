@@ -1,6 +1,6 @@
 from lex import *
 def main():
-	input = "+- # This is a comment!\n */"
+	input = "IF+-123 foo*THEN/"
 	lexer = Lexer(input)
 
 	token = lexer.getToken()
